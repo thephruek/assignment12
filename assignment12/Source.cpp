@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main() {
 	int x;
-	printf("Enter Number (Up): ");
+	printf("Enter Number : ");
 	scanf_s("%d", &x);
 	for (int i = 1; i <= x; i++) {
 		for (int j = x; j >= i; j--) {
